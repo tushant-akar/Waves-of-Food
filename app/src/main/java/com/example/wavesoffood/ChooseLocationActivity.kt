@@ -8,7 +8,7 @@ import com.example.wavesoffood.databinding.ActivityChooseLocationBinding
 
 class ChooseLocationActivity : AppCompatActivity() {
     private val binding: ActivityChooseLocationBinding by lazy {
-        ActivityChooseLocationBinding.inflate(layoutInflater)
+        ActivityChooseLocationBinding.inflate(layoutInflator)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
